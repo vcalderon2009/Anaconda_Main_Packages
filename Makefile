@@ -25,6 +25,7 @@ endif
 ## Adds anaconda channels, and install Anaconda and Pip dependencies
 all: update_conda clean add_channels pip_upgrade conda_requirements pip_requirements
 	echo "Anaconda has been updated!"
+	echo "Now install the 'sublime_text_snippets' environment! "
 
 update_conda:
 	conda update conda
