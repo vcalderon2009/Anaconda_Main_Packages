@@ -44,7 +44,7 @@ pip_upgrade:
 
 ## Install Anaconda packages using `conda`
 conda_requirements:
-	conda install --file $(CONDA_ENVIRONMENT_FILE)
+	conda install --yes --file $(CONDA_ENVIRONMENT_FILE)
 
 ## Install Anaconda packages using pip
 pip_requirements:
