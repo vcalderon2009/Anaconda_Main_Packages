@@ -27,9 +27,10 @@ all: update_conda clean add_channels pip_upgrade conda_requirements pip_requirem
 	echo "Anaconda has been updated!"
 	echo "Now install the 'sublime_text_snippets' environment! "
 
+## Updates Anaconda
 update_conda:
-	conda update conda
-	conda update anaconda
+	conda update --yes conda
+	conda update --yes anaconda
 
 ## Add channels to `.condarc`
 add_channels:
