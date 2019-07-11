@@ -1,0 +1,11 @@
+seaborn
+halotools
+cookiecutter
+dask
+h5py
+nbconvert
+sphinx>=1.6
+astropy
+scikit-learn>=0.19.1
+pip
+numpy
