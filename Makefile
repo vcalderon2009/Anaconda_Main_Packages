@@ -38,8 +38,8 @@ add_channels:
 	conda config
 	conda config --add channels conda-canary
 	conda config --add channels astropy
-	conda config --add channels defaults
 	conda config --add channels conda-forge
+	conda config --add channels defaults
 
 ## Upgrade pip
 pip_upgrade:
